@@ -35,6 +35,6 @@ public class MedelMaxMin {
                 summa += input[i];
             }
             int medel = summa/inputantal;
-            System.out.printf("Medeltalet är: " + medel + "n/ Högsta talet är: " + max + "n/ Minsta talet är: " + min);
+            System.out.printf("Medeltalet är: " + medel + "\n Högsta talet är: " + max + "\n Minsta talet är: " + min);
     }
 }
