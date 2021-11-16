@@ -18,22 +18,19 @@ public class MedelMaxMin {
         }
 
             int summa = 0;
-            int max = 0;
-            int min = 0;
+            int max = input[1];
+            int min = input[1];
 
-            for(int i = 0; i < input.length; i++) {
-                if (max < input[i]);
-                max = input[i];
-            }
+        for(int i = 0; i < input.length; i++) {
+             if (max < input[i]);
+             max = input[i];
 
-            for (int i = 0; i < input.length; i++) {
-                if (min < input[i]);
-                min = input[i];
-            }
+             if (min < input[i]);
+             min = input[i];
 
-            for (int i = 0; i < input.length; i++) {
-                summa += input[i];
-            }
+             summa += input[i];
+        }
+
             int medel = summa/inputantal;
             System.out.printf("Medeltalet är: " + medel + "\n Högsta talet är: " + max + "\n Minsta talet är: " + min);
     }
